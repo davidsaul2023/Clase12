@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tienda de Productos Artesanales</title>
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <!-- Barra de navegación con enlaces a diferentes secciones del sitio -->
+        <ul>
+          <li><a href="#about">Acerca de</a></li>
+          <li><a href="#products">Productos</a></li>
+          <li><a href="#contact">Contacto</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section id="hero">
+        <!-- Sección de introducción o imagen destacada -->
+        <h1>Bienvenido a nuestra Tienda de Productos Artesanales</h1>
+        <p>Descubre productos únicos hechos a mano con amor y dedicación.</p>
+        <a href="#products" class="btn">Ver productos</a>
+      </section>
+
+      <section id="about">
+        <!-- Sección de información sobre la tienda y su enfoque en la artesanía -->
+        <h2>Acerca de nuestra tienda</h2>
+        <p>Somos una tienda en línea dedicada a ofrecer productos artesanales de alta calidad. Cada pieza es cuidadosamente creada a mano por talentosos artesanos que ponen su pasión en cada detalle.</p>
+        <p>Valoramos la autenticidad, la belleza y la artesanía tradicional. Nuestros productos incluyen joyería, artículos de decoración del hogar, textiles, cerámica y mucho más.</p>
+      </section>
+
+      <section id="products">
+        <!-- Sección de productos destacados -->
+        <h2>Productos destacados</h2>
+        <div class="product-grid">
+          <!-- Aquí puedes mostrar una cuadrícula de productos destacados -->
+          <div class="product-card">
+            <img src="https://img.freepik.com/premium-photo/handmade-wooden-doll-sao-joao-brazilian-party-june-party-festa-junina_792751-362.jpg?w=1060" alt="Producto 1" />
+            <h3>Nombre del Producto 1</h3>
+            <p>Descripción breve del producto.</p>
+            <a href="#" class="btn">Ver detalles</a>
+          </div>
+          <div class="product-card">
+            <img src="https://img.freepik.com/premium-photo/mexican-wooden-traditional-toys-market_815433-3.jpg?w=1060" alt="Producto 2" />
+            <h3>Nombre del Producto 2</h3>
+            <p>Descripción breve del producto.</p>
+            <a href="#" class="btn">Ver detalles</a>
+          </div>
+          <div class="product-card">
+            <img src="https://img.freepik.com/premium-photo/woman-is-seen-market-with-colorful-looms_771335-53395.jpg?w=1060" alt="Producto 3" />
+            <h3>Nombre del Producto 3</h3>
+            <p>Descripción breve del producto.</p>
+            <a href="#" class="btn">Ver detalles</a>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact">
+        <!-- Sección de contacto y formulario -->
+        <h2>Contacto</h2>
+        <p>Si tienes alguna pregunta o consulta, no dudes en ponerte en contacto con nosotros. Estamos aquí para ayudarte.</p>
+        <form action="#" method="POST">
+          <input type="text" name="name" placeholder="Nombre" required />
+          <input type="email" name="email" placeholder="Correo electrónico" required />
+          <textarea name="message" placeholder="Mensaje" required></textarea>
+          <button type="submit" class="btn">Enviar mensaje</button>
+        </form>
+      </section>
+    </main>
+
+    <footer>
+      <!-- Pie de página con información adicional -->
+      <p>&copy; 2023 Tienda de Productos Artesanales. Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="scripts.js"></script>
+  </body>
+</html>
